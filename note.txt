@@ -1,0 +1,33 @@
+1.What is React?
+    for UI
+    JS library  can use in HTML by script tag (src)
+2. React lib
+    react -->  core  e.g components, lift cycle funct
+    react-dom  -> virtual dom -> Dom
+    babel  -> compile JSX
+3.  React 特点
+    declarative
+    component based
+    virtual dom -> diff
+
+
+Features:
+    1. provide settings
+    2. list all satellites on the given location
+    3. track satellites on map
+
+Layout:
+    top
+    main(left right)
+    bottom
+Components:
+                        App
+                                      cb1: onShow
+                Header           Main cb2: onShowMap                Footer
+                                      satInfo
+                                      isLoad
+
+                SatSetting         SatList                    WorldMap
+                cb1                 cb2
+                                    satInfo
+                                    isLoad
